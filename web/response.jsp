@@ -18,7 +18,7 @@
         <jsp:setProperty name="mybean" property="name"  />
         <jsp:setProperty name="mybean" property="nacimiento"  />
         <h1>Hello, <jsp:getProperty name="mybean" property="name" />!
-        Your age is, <jsp:getProperty name="mybean" property="age" />
+        Your age is, <jsp:getProperty name="mybean" property="age" /> years old
         
         <c:choose>
             <c:when test="${mybean.hora>=0 && mybean.hora<12}">

@@ -27,7 +27,7 @@ public class NameHandler {
     public NameHandler() {
         name=null;
         nacimiento=null;
-        hora=Integer.parseInt(DateTimeFormatter.ofPattern("H").format(LocalTime.now()));
+        hora=Integer.parseInt(DateTimeFormatter.ofPattern("H").format(LocalTime.now())); //pasar el formato de tipo fecha a tipo int de hora militar    
     }
 
     /**
@@ -60,7 +60,7 @@ public class NameHandler {
     public void setNacimiento(String nacimiento) {
         this.nacimiento = nacimiento;
     }
-
+    
     
     
     
